@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+  }
+  
+  .top-bar {
+    background: #fff;
+    padding: 2px;
+    padding-right: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-left a {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 160px;
+  }
+  
+  .nav-right {
+    display: flex;
+    text-align: right;
+    align-items: center;
+  }
+
+  .nav-right a {
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+
+  .EXPRESSO {
+    width: auto;
+    display: flex;
+    margin-right: 25px;
+  }
+  
+  .menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .menu-image img {
+    width: 960px;
+    border-radius: 0px;
+  }
+  
+  .menu-info {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .menu-info h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .digital-menu {
+    font-size: 27px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+  
+  .nutritional-tables {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    color: #8b4a2f;
+    font-size: 18px;
+  }
+  
+  .slogan {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .footer {
+    background: #fff;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-links a {
+    margin: 0 15px;
+    color: #5a2a18;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    font-size: 20px;
+    margin-top: 1rem;
+    color: #5a2a18;
+  }
