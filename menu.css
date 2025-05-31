@@ -20,6 +20,14 @@ body {
   align-items: center;
 }
 
+.nav-left a:hover {
+  display: inline-block;
+  cursor: pointer;
+  color: #5a2a18;
+  transform: scale(1.18);
+  transition: transform 0.4s linear, color 0.4s linear;
+}
+
 .nav-left a {
   font-size: 20px;
   margin-left: 10px;
@@ -28,6 +36,12 @@ body {
   color: #000;
   font-weight: bold;
 }
+
+.nav-left a:first-of-type {
+  color:#5a2a18;
+  font-weight: bold;
+}
+
 
 .nav-left {
   display: flex;
